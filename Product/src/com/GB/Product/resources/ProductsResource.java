@@ -43,9 +43,7 @@ public class ProductsResource {
 			String ProductName = ProductObject.get("ProductName").getAsString();
 			String ProductDescription = ProductObject.get("ProductDescription").getAsString();
 			String ProductType = ProductObject.get("ProductType").getAsString();
-			String FProjectID = ProductObject.get("FProjectID").getAsString();
-			String Fund = ProductObject.get("Fund").getAsString();
-
+		
 			ProductsService ProductObject2 = new ProductsService();
 
 			ProductObj.setProductId(ProductId);

@@ -59,7 +59,7 @@ Connection con = null;
 	 // iterate through the rows in the result set
 	 while (rs.next())
 	 {
-		 String ProductId = rs.getString("ProductId");
+		 int ProductId = rs.getInt("ProductId");
 		 String ProductName = rs.getString("ProductName");
 		 String ProductDescription = rs.getString("ProductDescription");
 		 String ProductType = rs.getString("ProductType");

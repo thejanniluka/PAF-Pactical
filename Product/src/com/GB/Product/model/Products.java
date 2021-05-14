@@ -6,55 +6,58 @@ public class Products {
 	private String ProductDescription;
 	private String ProductType;
 	
-	public Products() {
-		
-	}
 	
-	public Products(String ProductId, String ProductName, String ProductDescription, String ProductType) {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public Products() {
 		super();
-		this.ProductId = ProductId;
-		this.ProductName = ProductName;
-		this.ProductDescription = ProductDescription;
-		this.ProductType = ProductType;
-		
 	}
-
+	public Products(String productId, String productName, String productDescription, String productType) {
+		super();
+		ProductId = productId;
+		ProductName = productName;
+		ProductDescription = productDescription;
+		ProductType = productType;
+	}
 	public String getProductId() {
 		return ProductId;
 	}
-
-	public void setProductId(String ProductId) {
-		this.ProductId = ProductId;
+	public void setProductId(String productId) {
+		ProductId = productId;
 	}
-
 	public String getProductName() {
 		return ProductName;
 	}
-
-	public void setProductName(String ProductName) {
-		this.ProductName = ProductName;
+	public void setProductName(String productName) {
+		ProductName = productName;
 	}
-
 	public String getProductDescription() {
 		return ProductDescription;
 	}
-
-	public void setProductDescription(String ProductDescription) {
-		this.ProductDescription = ProductDescription;
-		
+	public void setProductDescription(String productDescription) {
+		ProductDescription = productDescription;
 	}
-
 	public String getProductType() {
 		return ProductType;
 	}
-
-	public void setProductType(String ProductType) {
-		this.ProductType = ProductType;
+	public void setProductType(String productType) {
+		ProductType = productType;
 	}
 	
-
 	
-
+	
+	
+	
 
 
 }
